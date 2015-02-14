@@ -1,0 +1,17 @@
+[LANGUAGE]
+name=Документация
+namelanguage=на русском языке
+[COMPONENTS]
+Menu_Exit=Выход
+Menu_Documentation=Документация
+Menu_LoadFromFile=Загрузить из файла
+Menu_Find=Поиск
+[MESSAGES]
+Loading=Загрузка данных
+Error=Ошибка загрузки данных
+ErrorConnect=Ошибка подключения к сайту программы
+ErrorFindLanguage=К сожалению нет документации для текущего выбранного языка
+[SEARCH]
+Title=Поиск
+Count=Найдено
+GoTo=Перейти

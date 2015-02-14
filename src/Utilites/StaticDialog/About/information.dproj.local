@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008.11.11 18:35:41.640.bdsproj,C:\Documents and Settings\1\My Documents\Borland Studio Projects\Project1.bdsproj=C:\Романус\program\work\ComicsReader\Utilites\About\information.bdsproj</Transaction>
+    <Transaction>2008.11.11 18:36:04.265.pas,C:\Романус\program\work\ComicsReader\Utilites\About\Unit1.pas=C:\Романус\program\work\ComicsReader\Utilites\About\AboutForm.pas</Transaction>
+    <Transaction>2008.11.11 18:36:04.265.dfm,C:\Романус\program\work\ComicsReader\Utilites\About\Unit1.dfm=C:\Романус\program\work\ComicsReader\Utilites\About\AboutForm.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

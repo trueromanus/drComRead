@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011.02.27 11:44:40.437.dproj,C:\Documents and Settings\1\My Documents\RAD Studio\Projects\Project1.dproj=C:\Романус\program\work\drComRead\Utilites\IUpdater\iupdater.dproj</Transaction>
+    <Transaction>2011.04.24 13:49:04.250.pas,c:\Романус\program\work\drComRead\Utilites\IUpdater\Unit1.pas=C:\Романус\program\work\drComRead\Utilites\IUpdater\IUArchive.pas</Transaction>
+    <Transaction>2011.05.10 22:05:04.593.pas,c:\Романус\program\work\drComRead\Libs\ArcFunc.pas=</Transaction>
+    <Transaction>2011.05.11 22:14:51.171.pas,c:\Романус\program\work\drComRead\Libs\sevenzip.pas=</Transaction>
+    <Transaction>2011.05.11 22:14:59.421.pas,c:\Романус\program\work\drComRead\Utilites\DynamicDialog\OpenFile\CRArchive.pas=</Transaction>
+    <Transaction>2011.05.14 22:11:40.062.pas,c:\Романус\program\work\drComRead\Libs\ArcFunc.pas=</Transaction>
+    <Transaction>2011.05.15 20:22:33.562.pas,c:\Романус\program\work\drComRead\Utilites\IUpdater\Unit1.pas=C:\Романус\program\work\drComRead\Utilites\IUpdater\UpdaterUtils.pas</Transaction>
+    <Transaction>2011.05.16 14:48:15.921.pas,c:\Романус\program\work\drComRead\Libs\sevenzip.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.11.23 21:58:07.906.pas,C:\Романус\program\work\drComRead\Utilites\DynamicWindow\navigator\Unit1.pas=C:\Романус\program\work\drComRead\Utilites\DynamicWindow\navigator\InfoForm.pas</Transaction>
+    <Transaction>2010.11.23 21:58:07.906.dfm,C:\Романус\program\work\drComRead\Utilites\DynamicWindow\navigator\Unit1.dfm=C:\Романус\program\work\drComRead\Utilites\DynamicWindow\navigator\InfoForm.dfm</Transaction>
+    <Transaction>2011.05.29 15:02:55.265.pas,c:\Романус\program\work\drComRead\Utilites\DynamicWindow\navigator\NRImports.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

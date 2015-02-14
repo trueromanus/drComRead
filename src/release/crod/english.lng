@@ -1,0 +1,17 @@
+[LANGUAGE]
+name=Documentation
+namelanguage=in english
+[COMPONENTS]
+Menu_Exit=Exit
+Menu_Documentation=Documentation
+Menu_LoadFromFile=Load from file
+Menu_Find=Search
+[MESSAGES]
+Loading=Loading data
+Error=Error loading data
+ErrorConnect=Error connect at program site
+ErrorFindLanguage=Sorry, not found documentation at current set language
+[SEARCH]
+Title=Search
+Count=Finding
+GoTo=Go to

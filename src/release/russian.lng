@@ -1,0 +1,264 @@
+[MAIN]
+filemenu=Файл
+opendir=Открыть каталог
+openfile=Открыть файл
+closefile=Закрыть
+closeall=Закрыть все
+listarchive=Лист архивов
+navigate=Навигация
+navigate_next=Следующее изображение
+navigate_prev=Предыдущее изображение
+navigate_nextarc=Следующий архив
+navigate_prevarc=Предыдущий архив
+navigate_startarc=Первый архив
+navigate_endarc=Последний архив
+navigate_start=В начало
+navigate_end=В конец
+window=Окно
+window_fscr=На полный экран
+window_deff=Единичный просмотрщик
+window_min=Минимизировать
+window_magn=Навигатор
+image=Изображение
+image_zoom=Масштабировать
+image_stretch=Выровнять по ширине
+image_original=Оригинал
+image_height=Выровнять по высоте
+image_autosize=Выровнять автоматически
+image_about=О программе
+image_exit=Выход
+archivedialog=Управление архивами
+fileinfo=Информация о файле
+sortfiles=Сортировка файлов
+rotate=Повороты
+rotate_cw=Поворот по часовой
+rotate_ccw=Поворот против часовой
+rotate_cwall=Повернуть по часовой все
+rotate_ccwall=Повернуть против часовой все
+flip=Отражение
+flip_horizontal=Горизонтальное
+flip_vertical=Вертикальное
+flip_horizontalall=Горизонтальное для всех
+flip_verticalall=Вертикальное для всех
+savetofile=Сохранить в файл
+savetoclipboard=Сохранить в буфер обмена
+filemanagers=Управление файлами
+currentpage=Текущая: 
+togoingpage=Переходимая: 
+countpvpages=Количество: 
+firstpagelist=Это первая страница в списке
+lastpagelist=Это последняя страница в списке
+addbookmark=Поставить закладку
+bookmarks=Закладки
+delbookmark=Убрать закладку
+dirhistory=История каталогов
+archistory=История архивов
+historydialog=Диалог истории
+createarchive=Создать архив
+createrar=Создать CBR/RAR
+createzip=Создать CBZ/ZIP
+create7zip=Создать CB7/7ZIP
+createpdf=Создать PDF
+createtiff=Создать TIFF
+creategif=Создать GIF
+createloading=Создание файла
+repackarchive=Перепаковать архив
+repackandrewrite=Перепаковать и перезаписать
+repackandsaveas=Перепаковать и сохранить как
+repackloadingunarc=Выполняется распаковка
+repackloadingarc=Выполняется архивирование
+repackloadingerror=Не удалось выполнить перепаковку
+selectallgroup=Выбрать всю группу
+nextarchiveinfo=Открыть архив:
+newversiontext=Доступна новая версия программы выполнить процесс обновления?
+nextbookmark=Следующая закладка
+prevbookmark=Предыдущая закладка
+clearallbookmark=Очистить все закладки
+checkupdatesmenu=Проверить обновления
+notcheckupdates=Не найдено версий старше текущей!
+addonsmenu=Дополнения
+addonsmanage=Управление
+documentation=Справка
+
+[OPENDIALOG]
+allfilter=Все поддерживаемые форматы
+imagesfilter=Изображения
+archivefilter=Архивы
+title=Открыть
+open_button=Открыть
+cancel_button=Отмена
+file_name=Имя файла
+folder_name=Папка
+
+[CONFIGDIALOG]
+main_title=Настройки программы
+portrait_combo=Портрет
+landscape_combo=Альбом
+twopagescale_combo=Двухстраничный
+original=Оригинальный размер
+width_align=Масштабирование
+zooming=Выровнять по ширине
+height_align=Выровнять по длине
+user_align=Значение пользователя
+change_orientation_label=Ориентация страницы
+change_scalemode_label=Режимы масштабирования
+user_mode_percent=Проценты
+user_mode_width=Ширина в пикселях
+user_mode_height=Высота в пикселях
+
+background_type=Режим фона
+background_color=Цвет фона
+background_tile=Фоновая картинка
+background_tilebutton=Открыть файл
+background_auto=Автоматически
+background_none=Не изменять
+
+active_scroll_start=Активное перемещение при старте программы
+sensivity_level=Уровень активной прокрутки
+active_scroll=Активное перемещение в программе
+
+paging_endarchive=Переходы между архивами
+paging_edgemode=Корешки в главном окне
+
+twopage_view=Двухстраничный режим
+twopage_japan=В двухстраничном режиме листы наоборот
+twopage_long=Переход на одну страницу вперед
+
+full_screen=Полноэкранный режим при старте программы
+window_minimize=Минимизировать окно при старте программы
+language=Язык программы
+
+save_button=Применить
+cancel_button=Закрыть
+updatertext=Проверка и установка новых версий с сайта программы
+
+rar_locate=Путь к консольному архиватору
+path_to_temp_dir=Путь к временной папке
+windows_sys_temp_dir=Папка временных файлов Windows
+
+sort_archive=Сортировка для списка архивов
+sort_sensitive=С учетом регистра для файлов
+sort_sensitive_archives=С учетом регистра для архивов
+sort_to_opened=Сортировка для списка файлов
+sort_ascfull=Восходяще с полными путями
+sort_asc=Восходяще только имя файла
+sort_descfull=Нисходяще с полными путями
+sort_desc=Нисходяще только имя файла
+sort_none=Без сортировки
+
+mainoptions_vk=Основные
+historybookmark_vk=История и закладки
+keysoptions_vk=Дополнительно
+arcoptions_vk=Архивы
+coloroptions_vk=Цветокоррекция
+scalemode_vk=Режимы масштабирования
+windowbackground_vk=Фон окна
+activescroll_vk=Активная прокрутка
+windowandlanguage_vk=Окно и язык
+twopages_vk=Двухстраничный просмотр
+navigate_vk=Навигация
+bookmark_vk=Закладки
+history_vk=История
+main_vk=Основное
+sorting_vk=Сортировка
+
+cc_colorcommongroup=Основные настройки
+cc_curves=Использовать кривые для изображения
+cc_sharpen=Использовать резкость для изображения
+cc_enabledgammacorrection=Использовать коррекцию гаммы
+сс_gammacorrection=Коррекция гаммы (нулевое значение 1.0)
+cc_contrast=Использовать контраст
+saturation=Насыщенность
+
+bookmarks=Закладки
+bookmarks_change_last=Переходить при открытии архива на последнюю закладку
+bookmarks_is_one=Создается только одна закладка на архив
+bookmarks_close_program=Ставить закладку при закрытии программы
+bookmarks_close_archive=Ставить закладку при закрытии архива
+[READINFODIALOG]
+name_dialog=Информация о папке
+button_close=Закрыть
+
+[DIRDIALOG]
+window_title=Диалог открытия папок
+ok_button=Открыть каталог
+cancel_button=Отмена
+checkbox=Показывать папки в списке файлов
+
+[SORTANDARCDIALOG]
+sort_title=Сортировка файлов
+arc_title=Список архивов
+show_path_files=Не показывать пути к файлам
+easy_select=Простой режим
+asc=Восходяще
+desc=Нисходяще
+sortarc=Сортировка
+change=Изменить
+cancel=Отменить
+select=Выбрать
+deselect=Снять выбор
+pasteto=Вставка до
+exchange=Обмен
+pasteafter=Вставка после
+savesort=Сох. в файл
+filter=Поиск
+casesensitive=Учитывать регистр
+
+[NAVIGATOR]
+onactivescroll=Вкл
+offactivescroll=Выкл
+nextarchive=Открыть следующий архив:
+prevarchive=Открыть предыдущий архив:
+headerinfo=Меню действий
+contentinfo=Нажмите правой кнопкой для открытия меню и выбора необходимого действия, далее выполните его нажав левую кнопку мыши
+headernavigate=Список изображений
+contentnavigate=Для изменения текущей позиции, измените ее с помощью стрелок и щелкните левой кнопкой мыши по панели информации
+navigateprev=Предыдущее изображение;Перейти на просмотр предыдущего изображения в списке изображений
+navigatenext=Следующее изображение;Перейти на просмотр следующего изображения в списке изображений
+navigatestart=Первое изображение;Перейти на просмотр первого изображения в списке изображений
+navigateend=Последнее изображение;Перейти на просмотр последнего изображения в списке изображений
+movingpanel=Зажмите левую кнопку мыши и перетащите навигатор в необходимую позицию
+activescrollbutton=Активная прокрутка;Для изменения состояния активной прокрутки нажмите левой кнопкой мыши по этой кнопке
+centralpanel=Перемещение;Для перемещения  зажмите левую кнопку и двигайте мышкой
+currentpositionlist=Текущая позиция в списке
+countpositionslist=Количество позиций в списке
+imageslist=Страницы
+arhiveslist=Архивы
+listpaneltooltip=Список;Для открытия текущего элемента списка щекните левой кнопкой по этой панели
+leftuphide=Скрытие панелей;Скрыть панель управления активной прокруткой
+rightuphide=Скрытие панелей;Скрыть панель управления быстрых переходов между архивами
+leftdownhide=Скрытие панелей;Скрыть панель управления списком страниц
+rightdownhide=Скрытие панелей;Скрыть панель управления списками архивов и изображений
+
+[MESSAGES]
+errorloadarchive=Не удалось открыть архив
+errorloadimage=Ну удалось открыть файл;на просмотр
+welcometext=Для открытия основного меню;нажмите правую кнопку мыши
+programtext=drComRead версия
+
+[CURVES]
+applycurves=Применить кривые
+opencurves=Открыть кривые
+savecurves=Сохранить кривые
+resetcurves=Сбросить
+main_title=Цветокоррекция
+
+[HISTORYDIALOG]
+title=История посещений
+sort_title=Сортировка
+sort_descdate=Убывающе по дате
+sort_ascdate=Возрастающе по дате
+sort_descname=Убывающе по названию
+sort_ascname=Возрастающе по названию
+arc_tab=Архивы
+arc_all=Все
+arc_today=Сегодня
+arc_weekly=Неделя
+arc_mounth=Месяц
+dir_tab=Папки
+bookmark_tab=Закладки
+open_button=Открыть
+cancel_button=Отмена
+error_message=Файл не существует
+errordir_message=Папка не существует
+

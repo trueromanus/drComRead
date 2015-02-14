@@ -1,0 +1,204 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{AEE9926D-E601-41BA-B41C-7EAAECD4B00C}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Utilites\DynamicDialog\SortFilesDialog\sortfiles.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Utilites\DynamicDialog\ArchiveDialog\arcdialog.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Utilites\DynamicWindow\navigator\navigator.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Utilites\DynamicDialog\OpenDir\opendir.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Utilites\Config\config.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Utilites\DynamicDialog\InfoRead\readinfo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Utilites\StaticDialog\About\information.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="drComRead.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Utilites\DynamicDialog\OpenFile\openfiledialog.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Utilites\DynamicDialog\PreviewPage\previewpage.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Utilites\DynamicDialog\History\history.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Utilites\IUpdater\iupdater.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Utilites\IUpdater\Test\iupdaterTests.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Utilites\Config\Test\configTests.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\drComReadTests.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="sortfiles">
+			<MSBuild Projects="Utilites\DynamicDialog\SortFilesDialog\sortfiles.dproj"/>
+		</Target>
+		<Target Name="sortfiles:Clean">
+			<MSBuild Targets="Clean" Projects="Utilites\DynamicDialog\SortFilesDialog\sortfiles.dproj"/>
+		</Target>
+		<Target Name="sortfiles:Make">
+			<MSBuild Targets="Make" Projects="Utilites\DynamicDialog\SortFilesDialog\sortfiles.dproj"/>
+		</Target>
+		<Target Name="arcdialog">
+			<MSBuild Projects="Utilites\DynamicDialog\ArchiveDialog\arcdialog.dproj"/>
+		</Target>
+		<Target Name="arcdialog:Clean">
+			<MSBuild Targets="Clean" Projects="Utilites\DynamicDialog\ArchiveDialog\arcdialog.dproj"/>
+		</Target>
+		<Target Name="arcdialog:Make">
+			<MSBuild Targets="Make" Projects="Utilites\DynamicDialog\ArchiveDialog\arcdialog.dproj"/>
+		</Target>
+		<Target Name="navigator">
+			<MSBuild Projects="Utilites\DynamicWindow\navigator\navigator.dproj"/>
+		</Target>
+		<Target Name="navigator:Clean">
+			<MSBuild Targets="Clean" Projects="Utilites\DynamicWindow\navigator\navigator.dproj"/>
+		</Target>
+		<Target Name="navigator:Make">
+			<MSBuild Targets="Make" Projects="Utilites\DynamicWindow\navigator\navigator.dproj"/>
+		</Target>
+		<Target Name="opendir">
+			<MSBuild Projects="Utilites\DynamicDialog\OpenDir\opendir.dproj"/>
+		</Target>
+		<Target Name="opendir:Clean">
+			<MSBuild Targets="Clean" Projects="Utilites\DynamicDialog\OpenDir\opendir.dproj"/>
+		</Target>
+		<Target Name="opendir:Make">
+			<MSBuild Targets="Make" Projects="Utilites\DynamicDialog\OpenDir\opendir.dproj"/>
+		</Target>
+		<Target Name="config">
+			<MSBuild Projects="Utilites\Config\config.dproj"/>
+		</Target>
+		<Target Name="config:Clean">
+			<MSBuild Targets="Clean" Projects="Utilites\Config\config.dproj"/>
+		</Target>
+		<Target Name="config:Make">
+			<MSBuild Targets="Make" Projects="Utilites\Config\config.dproj"/>
+		</Target>
+		<Target Name="readinfo">
+			<MSBuild Projects="Utilites\DynamicDialog\InfoRead\readinfo.dproj"/>
+		</Target>
+		<Target Name="readinfo:Clean">
+			<MSBuild Targets="Clean" Projects="Utilites\DynamicDialog\InfoRead\readinfo.dproj"/>
+		</Target>
+		<Target Name="readinfo:Make">
+			<MSBuild Targets="Make" Projects="Utilites\DynamicDialog\InfoRead\readinfo.dproj"/>
+		</Target>
+		<Target Name="information">
+			<MSBuild Projects="Utilites\StaticDialog\About\information.dproj"/>
+		</Target>
+		<Target Name="information:Clean">
+			<MSBuild Targets="Clean" Projects="Utilites\StaticDialog\About\information.dproj"/>
+		</Target>
+		<Target Name="information:Make">
+			<MSBuild Targets="Make" Projects="Utilites\StaticDialog\About\information.dproj"/>
+		</Target>
+		<Target Name="drComRead">
+			<MSBuild Projects="drComRead.dproj"/>
+		</Target>
+		<Target Name="drComRead:Clean">
+			<MSBuild Targets="Clean" Projects="drComRead.dproj"/>
+		</Target>
+		<Target Name="drComRead:Make">
+			<MSBuild Targets="Make" Projects="drComRead.dproj"/>
+		</Target>
+		<Target Name="openfiledialog">
+			<MSBuild Projects="Utilites\DynamicDialog\OpenFile\openfiledialog.dproj"/>
+		</Target>
+		<Target Name="openfiledialog:Clean">
+			<MSBuild Targets="Clean" Projects="Utilites\DynamicDialog\OpenFile\openfiledialog.dproj"/>
+		</Target>
+		<Target Name="openfiledialog:Make">
+			<MSBuild Targets="Make" Projects="Utilites\DynamicDialog\OpenFile\openfiledialog.dproj"/>
+		</Target>
+		<Target Name="previewpage">
+			<MSBuild Projects="Utilites\DynamicDialog\PreviewPage\previewpage.dproj"/>
+		</Target>
+		<Target Name="previewpage:Clean">
+			<MSBuild Targets="Clean" Projects="Utilites\DynamicDialog\PreviewPage\previewpage.dproj"/>
+		</Target>
+		<Target Name="previewpage:Make">
+			<MSBuild Targets="Make" Projects="Utilites\DynamicDialog\PreviewPage\previewpage.dproj"/>
+		</Target>
+		<Target Name="history">
+			<MSBuild Projects="Utilites\DynamicDialog\History\history.dproj"/>
+		</Target>
+		<Target Name="history:Clean">
+			<MSBuild Targets="Clean" Projects="Utilites\DynamicDialog\History\history.dproj"/>
+		</Target>
+		<Target Name="history:Make">
+			<MSBuild Targets="Make" Projects="Utilites\DynamicDialog\History\history.dproj"/>
+		</Target>
+		<Target Name="iupdater">
+			<MSBuild Projects="Utilites\IUpdater\iupdater.dproj"/>
+		</Target>
+		<Target Name="iupdater:Clean">
+			<MSBuild Targets="Clean" Projects="Utilites\IUpdater\iupdater.dproj"/>
+		</Target>
+		<Target Name="iupdater:Make">
+			<MSBuild Targets="Make" Projects="Utilites\IUpdater\iupdater.dproj"/>
+		</Target>
+		<Target Name="iupdaterTests">
+			<MSBuild Projects="Utilites\IUpdater\Test\iupdaterTests.dproj"/>
+		</Target>
+		<Target Name="iupdaterTests:Clean">
+			<MSBuild Targets="Clean" Projects="Utilites\IUpdater\Test\iupdaterTests.dproj"/>
+		</Target>
+		<Target Name="iupdaterTests:Make">
+			<MSBuild Targets="Make" Projects="Utilites\IUpdater\Test\iupdaterTests.dproj"/>
+		</Target>
+		<Target Name="configTests">
+			<MSBuild Projects="Utilites\Config\Test\configTests.dproj"/>
+		</Target>
+		<Target Name="configTests:Clean">
+			<MSBuild Targets="Clean" Projects="Utilites\Config\Test\configTests.dproj"/>
+		</Target>
+		<Target Name="configTests:Make">
+			<MSBuild Targets="Make" Projects="Utilites\Config\Test\configTests.dproj"/>
+		</Target>
+		<Target Name="drComReadTests">
+			<MSBuild Projects="Test\drComReadTests.dproj"/>
+		</Target>
+		<Target Name="drComReadTests:Clean">
+			<MSBuild Targets="Clean" Projects="Test\drComReadTests.dproj"/>
+		</Target>
+		<Target Name="drComReadTests:Make">
+			<MSBuild Targets="Make" Projects="Test\drComReadTests.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="sortfiles;arcdialog;navigator;opendir;config;readinfo;information;drComRead;openfiledialog;previewpage;history;iupdater;iupdaterTests;configTests;drComReadTests"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="sortfiles:Clean;arcdialog:Clean;navigator:Clean;opendir:Clean;config:Clean;readinfo:Clean;information:Clean;drComRead:Clean;openfiledialog:Clean;previewpage:Clean;history:Clean;iupdater:Clean;iupdaterTests:Clean;configTests:Clean;drComReadTests:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="sortfiles:Make;arcdialog:Make;navigator:Make;opendir:Make;config:Make;readinfo:Make;information:Make;drComRead:Make;openfiledialog:Make;previewpage:Make;history:Make;iupdater:Make;iupdaterTests:Make;configTests:Make;drComReadTests:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

@@ -1,0 +1,144 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{AEE9926D-E601-41BA-B41C-7EAAECD4B00C}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="SortFilesDialog\sortfiles.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ArchiveDialog\arcdialog.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\DynamicWindow\navigator\navigator.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="OpenDir\opendir.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\Config\config.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="InfoRead\readinfo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\StaticDialog\About\information.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\Routines\ArcLib\arclib.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\Routines\Lang\langlib.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\Routines\libmanager\lmanager.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="sortfiles">
+			<MSBuild Projects="SortFilesDialog\sortfiles.dproj"/>
+		</Target>
+		<Target Name="sortfiles:Clean">
+			<MSBuild Targets="Clean" Projects="SortFilesDialog\sortfiles.dproj"/>
+		</Target>
+		<Target Name="sortfiles:Make">
+			<MSBuild Targets="Make" Projects="SortFilesDialog\sortfiles.dproj"/>
+		</Target>
+		<Target Name="arcdialog">
+			<MSBuild Projects="ArchiveDialog\arcdialog.dproj"/>
+		</Target>
+		<Target Name="arcdialog:Clean">
+			<MSBuild Targets="Clean" Projects="ArchiveDialog\arcdialog.dproj"/>
+		</Target>
+		<Target Name="arcdialog:Make">
+			<MSBuild Targets="Make" Projects="ArchiveDialog\arcdialog.dproj"/>
+		</Target>
+		<Target Name="navigator">
+			<MSBuild Projects="..\DynamicWindow\navigator\navigator.dproj"/>
+		</Target>
+		<Target Name="navigator:Clean">
+			<MSBuild Targets="Clean" Projects="..\DynamicWindow\navigator\navigator.dproj"/>
+		</Target>
+		<Target Name="navigator:Make">
+			<MSBuild Targets="Make" Projects="..\DynamicWindow\navigator\navigator.dproj"/>
+		</Target>
+		<Target Name="opendir">
+			<MSBuild Projects="OpenDir\opendir.dproj"/>
+		</Target>
+		<Target Name="opendir:Clean">
+			<MSBuild Targets="Clean" Projects="OpenDir\opendir.dproj"/>
+		</Target>
+		<Target Name="opendir:Make">
+			<MSBuild Targets="Make" Projects="OpenDir\opendir.dproj"/>
+		</Target>
+		<Target Name="config">
+			<MSBuild Projects="..\Config\config.dproj"/>
+		</Target>
+		<Target Name="config:Clean">
+			<MSBuild Targets="Clean" Projects="..\Config\config.dproj"/>
+		</Target>
+		<Target Name="config:Make">
+			<MSBuild Targets="Make" Projects="..\Config\config.dproj"/>
+		</Target>
+		<Target Name="readinfo">
+			<MSBuild Projects="InfoRead\readinfo.dproj"/>
+		</Target>
+		<Target Name="readinfo:Clean">
+			<MSBuild Targets="Clean" Projects="InfoRead\readinfo.dproj"/>
+		</Target>
+		<Target Name="readinfo:Make">
+			<MSBuild Targets="Make" Projects="InfoRead\readinfo.dproj"/>
+		</Target>
+		<Target Name="information">
+			<MSBuild Projects="..\StaticDialog\About\information.dproj"/>
+		</Target>
+		<Target Name="information:Clean">
+			<MSBuild Targets="Clean" Projects="..\StaticDialog\About\information.dproj"/>
+		</Target>
+		<Target Name="information:Make">
+			<MSBuild Targets="Make" Projects="..\StaticDialog\About\information.dproj"/>
+		</Target>
+		<Target Name="arclib">
+			<MSBuild Projects="..\Routines\ArcLib\arclib.dproj"/>
+		</Target>
+		<Target Name="arclib:Clean">
+			<MSBuild Targets="Clean" Projects="..\Routines\ArcLib\arclib.dproj"/>
+		</Target>
+		<Target Name="arclib:Make">
+			<MSBuild Targets="Make" Projects="..\Routines\ArcLib\arclib.dproj"/>
+		</Target>
+		<Target Name="langlib">
+			<MSBuild Projects="..\Routines\Lang\langlib.dproj"/>
+		</Target>
+		<Target Name="langlib:Clean">
+			<MSBuild Targets="Clean" Projects="..\Routines\Lang\langlib.dproj"/>
+		</Target>
+		<Target Name="langlib:Make">
+			<MSBuild Targets="Make" Projects="..\Routines\Lang\langlib.dproj"/>
+		</Target>
+		<Target Name="lmanager">
+			<MSBuild Projects="..\Routines\libmanager\lmanager.dproj"/>
+		</Target>
+		<Target Name="lmanager:Clean">
+			<MSBuild Targets="Clean" Projects="..\Routines\libmanager\lmanager.dproj"/>
+		</Target>
+		<Target Name="lmanager:Make">
+			<MSBuild Targets="Make" Projects="..\Routines\libmanager\lmanager.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="sortfiles;arcdialog;navigator;opendir;config;readinfo;information;arclib;langlib;lmanager"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="sortfiles:Clean;arcdialog:Clean;navigator:Clean;opendir:Clean;config:Clean;readinfo:Clean;information:Clean;arclib:Clean;langlib:Clean;lmanager:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="sortfiles:Make;arcdialog:Make;navigator:Make;opendir:Make;config:Make;readinfo:Make;information:Make;arclib:Make;langlib:Make;lmanager:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

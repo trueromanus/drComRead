@@ -1,0 +1,34 @@
+object CombineDirForm: TCombineDirForm
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'CombineDir'
+  ClientHeight = 485
+  ClientWidth = 274
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDefault
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ShellTreeView: TShellTreeView
+    Left = 0
+    Top = 0
+    Width = 274
+    Height = 217
+    ObjectTypes = [otFolders]
+    Root = 'rfDesktop'
+    UseShellImages = True
+    Align = alCustom
+    AutoRefresh = False
+    Indent = 19
+    ParentColor = False
+    RightClickSelect = True
+    ShowRoot = False
+    TabOrder = 0
+  end
+end

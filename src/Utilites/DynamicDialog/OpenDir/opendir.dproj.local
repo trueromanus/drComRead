@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.12.10 22:47:26.515.dproj,C:\Романус\program\work\drComRead\Utilites\DynamicDialog\OpenDir\opendir.dproj=C:\Романус\program\work\drComRead\Utilites\DynamicDialog\OpenDir\openddir.dproj</Transaction>
+    <Transaction>2010.12.10 22:47:35.843.dproj,C:\Романус\program\work\drComRead\Utilites\DynamicDialog\OpenDir\openddir.dproj=C:\Романус\program\work\drComRead\Utilites\DynamicDialog\OpenDir\opendir.dproj</Transaction>
+    <Transaction>2011.05.01 20:39:33.875.pas,c:\Романус\program\work\drComRead\Utilites\DynamicDialog\OpenDir\Unit1.pas=C:\Романус\program\work\drComRead\Utilites\DynamicDialog\OpenDir\CombineDirDialog.pas</Transaction>
+    <Transaction>2011.05.01 20:39:33.875.dfm,c:\Романус\program\work\drComRead\Utilites\DynamicDialog\OpenDir\Unit1.dfm=C:\Романус\program\work\drComRead\Utilites\DynamicDialog\OpenDir\CombineDirDialog.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.09.19 09:55:27.453.pas,C:\Романус\program\work\RLib\Arrays\RLibDynArrayObj.pas=</Transaction>
+    <Transaction>2009.09.19 09:55:29.656.pas,C:\Романус\program\work\RLib\Strings\RLibStrings.pas=</Transaction>
+    <Transaction>2009.12.20 18:23:16.171.pas,C:\Романус\program\work\drComRead\Utilites\Headers\LangLibHeader.pas=</Transaction>
+    <Transaction>2009.12.20 18:26:56.953.pas,C:\Романус\program\work\Romanus-Library\RLibDynArrayObj.pas=</Transaction>
+    <Transaction>2010.07.03 15:04:13.875.pas,C:\Романус\program\work\drComRead\Utilites\Headers\LMHeader.pas=</Transaction>
+    <Transaction>2010.07.04 21:30:32.859.pas,C:\Романус\program\work\Romanus-Library\RLibStrings.pas=</Transaction>
+    <Transaction>2011.06.02 21:33:02.875.pas,c:\Романус\program\work\drComRead\Utilites\DynamicDialog\InfoRead\RFGlobal.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

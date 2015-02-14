@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{D25012B7-DC9B-4309-9225-D7AB28E27C40}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="drComRead.exe">drComRead.bdsproj</Projects>
+      <Projects Name="previewpage.dll">Utilites\DynamicDialog\PreviewPage\previewpage.bdsproj</Projects>
+      <Projects Name="Targets">drComRead.exe previewpage.dll</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>
